@@ -1,5 +1,5 @@
 print('Введите массив: значения через пробел')
-l = [el for el in input().split()]
+l = input().split()
 final_list = []
 for el in l:
     if len(el) <= 2:
